@@ -174,3 +174,30 @@ body {
   gap: 80px;
   text-align: left;
 }
+
+.case {
+  background-color: #fafafa;
+  text-align: center;
+  padding: 40px 0 80px;
+}
+
+.case__subtitle {
+  margin-bottom: 40px;
+}
+
+.case img {
+  padding-bottom: 160px;
+}
+
+.energy__num {
+  text-align: center;
+  font-size: 210px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+.energy__text {
+  max-width: 400px;
+  margin: 0 auto;
+}
