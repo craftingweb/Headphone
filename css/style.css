@@ -201,3 +201,41 @@ body {
   max-width: 400px;
   margin: 0 auto;
 }
+
+.audio {
+  background-image: url("/images/footer.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.footer {
+  background-color: #000;
+  padding: 250px 0 40px;
+}
+
+.audio__inner {
+  min-height: 200vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.audio__box {
+  text-align: center;
+}
+
+.audio__text {
+  width: 300px;
+}
+
+.audio__btn {
+  color: black;
+  padding: 15px 58px;
+  background-color: white;
+  border-radius: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 25px;
+}
