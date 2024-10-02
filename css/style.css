@@ -143,3 +143,34 @@ body {
   padding: 50px 55px;
   border-radius: 20px;
 }
+
+.composition {
+  margin-bottom: 180px;
+  text-align: center;
+}
+
+.main__title {
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.composition__subtitle {
+  max-width: 650px;
+  margin: 0 auto 40px;
+}
+
+.composition__inner {
+  max-width: 625px;
+  display: flex;
+  gap: 150px;
+  margin: 0 auto;
+}
+
+.composition__inner-text {
+  max-width: 230px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  text-align: left;
+}
