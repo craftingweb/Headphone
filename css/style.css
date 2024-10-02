@@ -87,7 +87,7 @@ body {
   font-size: 200px;
   font-weight: 700;
   position: absolute;
-  margin-top: -40px;
+  padding-top: 128px;
   display: inline-block;
 }
 
@@ -114,4 +114,32 @@ body {
   transform: translate(-198px, 405px);
   z-index: -1;
   position: relative;
+}
+
+.choose-color__title {
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.choose-color__text {
+  max-width: 560px;
+  margin: 0 auto 80px;
+}
+
+.choose-color {
+  text-align: center;
+  padding: 45px 0 180px;
+}
+
+.choose-color__list {
+  display: flex;
+  gap: 40px;
+}
+
+.choose-color__btn {
+  border: 1px solid #d9d9d9;
+  padding: 50px 55px;
+  border-radius: 20px;
 }
