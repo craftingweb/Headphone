@@ -208,11 +208,21 @@ body {
   background-position: top center;
   background-repeat: no-repeat;
   color: white;
+  position: relative;
 }
 
-.footer {
-  background-color: #000;
-  padding: 250px 0 40px;
+.audio::after {
+  content: "";
+  background-image: url("/images/sound.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  bottom: -250px;
+  left: 0;
+  right: 0;
+  height: 150vh;
 }
 
 .audio__inner {
@@ -224,10 +234,12 @@ body {
 
 .audio__box {
   text-align: center;
+  padding-bottom: 30vh;
 }
 
 .audio__text {
   width: 300px;
+  margin-bottom: 10px;
 }
 
 .audio__btn {
@@ -238,4 +250,26 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 25px;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #000;
+  padding: 250px 0 40px;
+  color: white;
+}
+
+.footer__top {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.footer__bottom {
+  padding-top: 60px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
 }
