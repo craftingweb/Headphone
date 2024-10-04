@@ -38,6 +38,14 @@ body {
   padding: 0 10px;
 }
 
+.content-item {
+  display: none;
+}
+
+.content-item--active {
+  display: inline-block;
+}
+
 .header {
   min-height: 100vh;
   position: relative;
@@ -142,6 +150,10 @@ body {
   border: 1px solid #d9d9d9;
   padding: 50px 55px;
   border-radius: 20px;
+}
+
+.choose-color__btn.choose-color__btn--active {
+  display: none;
 }
 
 .composition {
